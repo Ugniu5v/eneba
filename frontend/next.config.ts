@@ -11,6 +11,31 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  async headers() {
+    // Generated art and fonts live in `public/assets` and never change without a
+    // new deploy, so neither the browser nor the Vercel edge should revalidate
+    // them on every navigation.
+    return [
+      {
+        source: "/assets/:path*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=2592000, stale-while-revalidate=604800",
+          },
+        ],
+      },
+      {
+        source: "/brand-mark.svg",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=2592000, stale-while-revalidate=604800",
+          },
+        ],
+      },
+    ];
+  },
 };
 
 export default nextConfig;
