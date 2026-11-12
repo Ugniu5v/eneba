@@ -1,0 +1,8 @@
+.gocache
+data
+*.db
+*.db-shm
+*.db-wal
+bin
+.env
+.env.*

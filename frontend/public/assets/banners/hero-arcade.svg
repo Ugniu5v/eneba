@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-label="Arcade-inspired promotional artwork">
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2B0866"/><stop offset=".45" stop-color="#6817A8"/><stop offset="1" stop-color="#D22D87"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FFEB66"/><stop offset=".48" stop-color="#FF8AC9" stop-opacity=".8"/><stop offset="1" stop-color="#FF8AC9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="streak" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFE870" stop-opacity="0"/><stop offset=".5" stop-color="#FFE870" stop-opacity=".8"/><stop offset="1" stop-color="#FFE870" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="hb"><feGaussianBlur stdDeviation="28"/></filter>
+    <filter id="hs"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="hgrain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".06"/></feComponentTransfer></filter>
+    <pattern id="hgrid" width="56" height="56" patternUnits="userSpaceOnUse" patternTransform="rotate(-8)">
+      <path d="M56 0H0V56" fill="none" stroke="#fff" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="760" fill="url(#hbg)"/>
+  <ellipse cx="1090" cy="210" rx="420" ry="300" fill="url(#sun)" opacity=".85"/>
+  <rect width="1600" height="760" fill="url(#hgrid)"/>
+  <g opacity=".9" filter="url(#hb)">
+    <circle cx="140" cy="110" r="150" fill="#39D2C0" opacity=".28"/>
+    <circle cx="1380" cy="600" r="220" fill="#FFD84D" opacity=".2"/>
+    <circle cx="750" cy="680" r="190" fill="#FF4A9A" opacity=".25"/>
+  </g>
+  <g transform="translate(930 120) rotate(-10)">
+    <rect width="290" height="390" rx="8" fill="#130B2C" opacity=".65" stroke="#fff" stroke-opacity=".15"/>
+    <rect x="18" y="18" width="254" height="286" rx="3" fill="#3A1767"/>
+    <circle cx="145" cy="150" r="92" fill="#FAD318" opacity=".65"/>
+    <path d="M92 236l53-140 53 140z" fill="#1D0E3D"/>
+    <text x="145" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="900" letter-spacing="3" fill="#fff">NIGHT CITY</text>
+  </g>
+  <g transform="translate(1260 380) rotate(8)">
+    <rect width="210" height="282" rx="8" fill="#071A31" opacity=".7" stroke="#fff" stroke-opacity=".15"/>
+    <rect x="16" y="16" width="178" height="202" rx="3" fill="#0D3D6B"/>
+    <circle cx="105" cy="108" r="62" fill="none" stroke="#69C7FF" stroke-width="4"/>
+    <path d="M61 106c22-42 66-46 88 0-25 34-62 36-88 0z" fill="#69C7FF" opacity=".5"/>
+    <text x="105" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="2" fill="#fff">STARFALL</text>
+  </g>
+  <g transform="translate(770 230)">
+    <circle cx="150" cy="160" r="160" fill="none" stroke="#FFF2A8" stroke-width="2" opacity=".28"/>
+    <circle cx="150" cy="160" r="120" fill="none" stroke="#FFF2A8" stroke-width="1" opacity=".2"/>
+    <g transform="translate(72 54)">
+      <path d="M20 80c8-34 40-52 88-52h84c40 0 70 20 84 58l12 46 34 10v32H0l-16-58z" fill="#160A32" opacity=".92"/>
+      <path d="M58 90l36-38h60l18 38z" fill="#FFEF7A" opacity=".3"/>
+      <circle cx="72" cy="144" r="30" fill="#100624" stroke="#FFDA55" stroke-width="3"/>
+      <circle cx="252" cy="144" r="30" fill="#100624" stroke="#FFDA55" stroke-width="3"/>
+      <circle cx="72" cy="144" r="9" fill="#FFDA55"/>
+      <circle cx="252" cy="144" r="9" fill="#FFDA55"/>
+    </g>
+    <path d="M-20 400L320 80" stroke="url(#streak)" stroke-width="5" filter="url(#hs)"/>
+  </g>
+  <g fill="#FFE870">
+    <rect x="240" y="560" width="250" height="8" transform="rotate(-14 240 560)" opacity=".8"/>
+    <rect x="330" y="594" width="158" height="5" transform="rotate(-14 330 594)" opacity=".4"/>
+    <rect x="180" y="642" width="96" height="3" transform="rotate(-14 180 642)" opacity=".3"/>
+  </g>
+  <g fill="#52E3C2" opacity=".9">
+    <path d="M1380 100l12 34 34 12-34 12-12 34-12-34-34-12 34-12z"/>
+    <path d="M300 200l7 20 20 7-20 7-7 20-7-20-20-7 20-7z" opacity=".7"/>
+  </g>
+  <rect width="1600" height="760" fill="#000" filter="url(#hgrain)"/>
+</svg>

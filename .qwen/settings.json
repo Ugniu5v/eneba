@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(do *)",
+      "Bash(then *)",
+      "Bash(exit *)",
+      "Bash(fi)",
+      "Bash(sleep *)",
+      "Bash(done)"
+    ]
+  },
+  "$version": 4
+}

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-label="Frostline Expansion Pack cover art">
+  
+  <defs>
+    <linearGradient id="bgfrostlinee" x1="0" y1="0" x2="0.75" y2="1">
+      <stop offset="0" stop-color="#061A2A"/>
+      <stop offset="1" stop-color="#24536C"/>
+    </linearGradient>
+    <radialGradient id="glowfrostlinee" cx="50%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#A9F3FF" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#A9F3FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shadefrostlinee" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".38" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".8"/>
+    </linearGradient>
+    <linearGradient id="inkFadefrostlinee" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity=".62"/>
+    </linearGradient>
+    <pattern id="gridfrostlinee" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#A9F3FF" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+    <pattern id="dotsfrostlinee" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#A9F3FF" opacity=".18"/>
+    </pattern>
+    <filter id="grainfrostlinee">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".055"/></feComponentTransfer>
+    </filter>
+    <filter id="blurfrostlinee" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="blurSmallfrostlinee" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <clipPath id="clipfrostlinee"><rect width="600" height="800" rx="0"/></clipPath>
+  </defs>
+  <g clip-path="url(#clipfrostlinee)">
+    <rect width="600" height="800" fill="url(#bgfrostlinee)"/>
+    
+      <circle cx="366.0" cy="34.3" r="1.15" fill="#fff" opacity="0.30"/><circle cx="533.4" cy="141.0" r="1.48" fill="#fff" opacity="0.40"/><circle cx="399.5" cy="232.7" r="2" fill="#fff" opacity="0.50"/><circle cx="214.1" cy="17.6" r="1.7100000000000002" fill="#fff" opacity="0.60"/><circle cx="227.3" cy="204.2" r="1.3199999999999998" fill="#fff" opacity="0.20"/><circle cx="89.2" cy="0.7" r="1.54" fill="#fff" opacity="0.30"/><circle cx="49.7" cy="115.5" r="1.3699999999999999" fill="#fff" opacity="0.40"/><circle cx="358.8" cy="257.0" r="1.54" fill="#fff" opacity="0.50"/><circle cx="66.4" cy="133.4" r="1.04" fill="#fff" opacity="0.60"/><circle cx="22.8" cy="453.1" r="0.58" fill="#fff" opacity="0.20"/><circle cx="477.7" cy="424.4" r="0.8800000000000001" fill="#fff" opacity="0.30"/><circle cx="481.2" cy="255.6" r="0.93" fill="#fff" opacity="0.40"/><circle cx="283.3" cy="155.2" r="1.45" fill="#fff" opacity="0.50"/><circle cx="134.1" cy="331.3" r="1.45" fill="#fff" opacity="0.60"/><circle cx="283.4" cy="492.5" r="1.64" fill="#fff" opacity="0.20"/><circle cx="381.4" cy="346.9" r="1.02" fill="#fff" opacity="0.30"/><circle cx="78.0" cy="102.9" r="2" fill="#fff" opacity="0.40"/><circle cx="223.2" cy="468.9" r="1.8800000000000001" fill="#fff" opacity="0.50"/><circle cx="467.0" cy="153.1" r="1.3900000000000001" fill="#fff" opacity="0.60"/><circle cx="459.4" cy="364.0" r="1.23" fill="#fff" opacity="0.20"/><circle cx="450.4" cy="309.9" r="0.4" fill="#fff" opacity="0.30"/><circle cx="90.1" cy="199.0" r="1.31" fill="#fff" opacity="0.40"/><circle cx="228.3" cy="239.7" r="1.27" fill="#fff" opacity="0.50"/><circle cx="515.2" cy="140.4" r="1" fill="#fff" opacity="0.60"/><circle cx="0.6" cy="109.4" r="1.19" fill="#fff" opacity="0.20"/><circle cx="134.7" cy="355.0" r="0.86" fill="#fff" opacity="0.30"/><circle cx="567.4" cy="85.6" r="0.71" fill="#fff" opacity="0.40"/><circle cx="348.7" cy="9.4" r="1.46" fill="#fff" opacity="0.50"/><circle cx="328.6" cy="334.9" r="0.41" fill="#fff" opacity="0.60"/><circle cx="157.2" cy="270.3" r="1.67" fill="#fff" opacity="0.20"/><circle cx="84.3" cy="24.0" r="0.8400000000000001" fill="#fff" opacity="0.30"/><circle cx="360.1" cy="304.4" r="0.35" fill="#fff" opacity="0.40"/><circle cx="34.4" cy="319.7" r="0.89" fill="#fff" opacity="0.50"/><circle cx="557.4" cy="278.2" r="1.47" fill="#fff" opacity="0.60"/><circle cx="379.0" cy="388.4" r="1.1" fill="#fff" opacity="0.20"/><circle cx="349.2" cy="358.6" r="0.49000000000000005" fill="#fff" opacity="0.30"/><circle cx="118.0" cy="397.0" r="0.36" fill="#fff" opacity="0.40"/><circle cx="535.4" cy="212.0" r="1.3900000000000001" fill="#fff" opacity="0.50"/>
+      <g transform="translate(300 330)">
+        <circle r="215" fill="none" stroke="#A9F3FF" stroke-opacity=".15"/>
+        <circle r="155" fill="none" stroke="#A9F3FF" stroke-opacity=".35" stroke-width="1.5"/>
+        <circle r="102" fill="#A9F3FF" opacity=".05"/>
+        <path d="M-102 0H102M0-102V102" stroke="#A9F3FF" opacity=".2"/>
+        <path d="M-155-55L-210-90M155 55L210 90M-55 155L-90 210" stroke="#A9F3FF" opacity=".5"/>
+        <g fill="none" stroke="#A9F3FF" stroke-width="1.5">
+          <path d="M0-60L52-30v60L0 60-52 30v-60z" fill="#A9F3FF" fill-opacity=".12"/>
+          <path d="M0-20V20M-20-10L20 10M20-10L-20 10"/>
+        </g>
+      </g>
+      <path d="M0 610l120-52 110 30 130-72 120 56 120-30v258H0z" fill="#08040C" opacity=".7"/>
+      <g fill="#A9F3FF" opacity=".7">
+        <path d="M140 232l8 24 24 8-24 8-8 24-8-24-24-8 24-8z"/>
+        <circle cx="468" cy="470" r="4"/>
+      </g>
+    
+  <rect width="600" height="800" fill="url(#glowfrostlinee)"/>
+  <rect width="600" height="800" fill="url(#gridfrostlinee)" opacity=".55"/>
+  <rect width="600" height="800" fill="#000" filter="url(#grainfrostlinee)" opacity=".65"/>
+  <rect y="420" width="600" height="380" fill="url(#shadefrostlinee)"/>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <rect x="36" y="36" width="70.7" height="28" fill="#000" opacity=".35"/>
+      <text x="50" y="55" fill="#FFFFFF" font-size="11" font-weight="700" letter-spacing="2">DLC</text>
+      <text x="564" y="55" text-anchor="end" fill="#A9F3FF" font-size="11" font-weight="700" letter-spacing="2">EN • EUR</text>
+      <g transform="translate(36 680)">
+        <rect x="0" y="-42" width="44" height="4" fill="#A9F3FF"/>
+        <text x="0" y="0" fill="#FFFFFF" font-size="66" font-weight="900" letter-spacing="-2.5">FROSTLINE</text>
+      </g>
+      <g transform="translate(36 754)">
+        <text x="0" y="0" fill="#A9F3FF" font-size="16" font-weight="700" letter-spacing="3.5">EXPANSION</text>
+      </g>
+      <g transform="translate(36 748)" opacity=".78">
+        <path d="M0 0h70" stroke="#FFFFFF" stroke-width="1"/>
+        <text x="0" y="24" fill="#FFFFFF" font-size="10" font-weight="700" letter-spacing="2.6">DIGITAL DOWNLOAD</text>
+        <text x="564" y="0" text-anchor="end" fill="#FFFFFF" font-size="10" font-weight="700" letter-spacing="1.7">INSTANT DELIVERY</text>
+      </g>
+    </g>
+  </g>
+</svg>

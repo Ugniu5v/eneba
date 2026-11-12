@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-label="Crownfall: Shattered Realm cover art">
+  
+  <defs>
+    <linearGradient id="bgcrownfalls" x1="0" y1="0" x2="0.75" y2="1">
+      <stop offset="0" stop-color="#180B36"/>
+      <stop offset="1" stop-color="#5C1E9B"/>
+    </linearGradient>
+    <radialGradient id="glowcrownfalls" cx="50%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#F3C969" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#F3C969" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shadecrownfalls" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".38" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".8"/>
+    </linearGradient>
+    <linearGradient id="inkFadecrownfalls" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity=".62"/>
+    </linearGradient>
+    <pattern id="gridcrownfalls" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#F3C969" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+    <pattern id="dotscrownfalls" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#F3C969" opacity=".18"/>
+    </pattern>
+    <filter id="graincrownfalls">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".055"/></feComponentTransfer>
+    </filter>
+    <filter id="blurcrownfalls" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="blurSmallcrownfalls" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <clipPath id="clipcrownfalls"><rect width="600" height="800" rx="0"/></clipPath>
+  </defs>
+  <g clip-path="url(#clipcrownfalls)">
+    <rect width="600" height="800" fill="url(#bgcrownfalls)"/>
+    
+      <circle cx="300" cy="320" r="230" fill="none" stroke="#F3C969" stroke-opacity=".22"/>
+      <circle cx="300" cy="320" r="190" fill="none" stroke="#F3C969" stroke-opacity=".12" stroke-dasharray="3 9"/>
+      <circle cx="300" cy="320" r="120" fill="#F3C969" opacity=".08" filter="url(#blurcrownfalls)"/>
+      <g transform="translate(142 330)" fill="none" stroke="#F3C969" stroke-width="2.4" stroke-linejoin="round">
+        <path d="M0 130L38 34l64 64L158 0l56 98 64-64 38 96v116H0Z" fill="#F3C969" fill-opacity=".12"/>
+        <path d="M10 244h286"/>
+        <path d="M106 98v132M213 98v132"/>
+        <circle cx="158" cy="64" r="9" fill="#F3C969"/>
+        <circle cx="38" cy="34" r="7" fill="#F3C969"/>
+        <circle cx="280" cy="34" r="7" fill="#F3C969"/>
+      </g>
+      <g fill="#F3C969" opacity=".5">
+        <circle cx="46" cy="210" r="2"/><circle cx="118" cy="275" r="3"/><circle cx="512" cy="340" r="2"/><circle cx="556" cy="405" r="3"/>
+      </g>
+      <path d="M300 0v180M90 620L300 430l210 190" stroke="#F3C969" stroke-opacity=".16"/>
+    
+  <rect width="600" height="800" fill="url(#glowcrownfalls)"/>
+  <rect width="600" height="800" fill="url(#gridcrownfalls)" opacity=".55"/>
+  <rect width="600" height="800" fill="#000" filter="url(#graincrownfalls)" opacity=".65"/>
+  <rect y="420" width="600" height="380" fill="url(#shadecrownfalls)"/>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <rect x="36" y="36" width="79.6" height="28" fill="#000" opacity=".35"/>
+      <text x="50" y="55" fill="#FFFFFF" font-size="11" font-weight="700" letter-spacing="2">GAME</text>
+      <text x="564" y="55" text-anchor="end" fill="#F3C969" font-size="11" font-weight="700" letter-spacing="2">EN • EUR</text>
+      <g transform="translate(36 680)">
+        <rect x="0" y="-42" width="44" height="4" fill="#F3C969"/>
+        <text x="0" y="0" fill="#FFFFFF" font-size="66" font-weight="900" letter-spacing="-2.5">CROWNFALL</text>
+      </g>
+      <g transform="translate(36 754)">
+        <text x="0" y="0" fill="#F3C969" font-size="16" font-weight="700" letter-spacing="3.5">SHATTERED REALM</text>
+      </g>
+      <g transform="translate(36 748)" opacity=".78">
+        <path d="M0 0h70" stroke="#FFFFFF" stroke-width="1"/>
+        <text x="0" y="24" fill="#FFFFFF" font-size="10" font-weight="700" letter-spacing="2.6">DIGITAL DOWNLOAD</text>
+        <text x="564" y="0" text-anchor="end" fill="#FFFFFF" font-size="10" font-weight="700" letter-spacing="1.7">INSTANT DELIVERY</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="900" viewBox="0 0 760 900" role="img" aria-label="Stack of digital gift cards">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFE23C"/><stop offset=".5" stop-color="#FFB72B"/><stop offset="1" stop-color="#FF7A3A"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6818BB"/><stop offset="1" stop-color="#2A075B"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071A2D"/><stop offset="1" stop-color="#165060"/>
+    </linearGradient>
+    <filter id="gsh"><feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#7A2E00" flood-opacity=".35"/></filter>
+    <filter id="ggrain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".055"/></feComponentTransfer></filter>
+    <pattern id="gdots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.6" fill="#5A2600" opacity=".15"/></pattern>
+  </defs>
+  <rect width="760" height="900" fill="url(#gbg)"/>
+  <rect width="760" height="900" fill="url(#gdots)"/>
+  <circle cx="110" cy="150" r="220" fill="#fff" opacity=".13" filter="url(#gsh)"/>
+  <circle cx="690" cy="760" r="250" fill="#FF4B8B" opacity=".16" filter="url(#gsh)"/>
+  <g transform="translate(440 112) rotate(13)" opacity=".85" filter="url(#gsh)">
+    <rect width="300" height="190" rx="12" fill="url(#card2)"/>
+    <text x="28" y="48" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#fff" opacity=".6">DIGITAL GIFT CARD</text>
+    <text x="28" y="104" font-family="Arial, sans-serif" font-size="34" font-weight="900" fill="#fff">GAME ON</text>
+    <text x="28" y="134" font-family="Arial, sans-serif" font-size="17" fill="#7BEADB">€50.00</text>
+    <circle cx="256" cy="138" r="28" fill="#7BEADB" opacity=".17"/>
+    <path d="M242 128l28 22m0-22l-28 22" stroke="#7BEADB" stroke-width="2"/>
+  </g>
+  <g transform="translate(90 230) rotate(-7)" filter="url(#gsh)">
+    <rect width="330" height="208" rx="12" fill="url(#card1)"/>
+    <rect x="18" y="18" width="294" height="172" rx="6" fill="none" stroke="#fff" stroke-opacity=".12"/>
+    <text x="34" y="54" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#FFE76B">GIFT CARD</text>
+    <text x="34" y="112" font-family="Arial, sans-serif" font-size="42" font-weight="900" fill="#fff">PLAY</text>
+    <text x="34" y="154" font-family="Arial, sans-serif" font-size="16" fill="#D4C2FF">FUND YOUR NEXT ADVENTURE</text>
+    <circle cx="270" cy="110" r="42" fill="#FAD318" opacity=".18"/>
+    <path d="M252 90l18 40 18-40" fill="none" stroke="#FAD318" stroke-width="4"/>
+  </g>
+  <g transform="translate(190 510) rotate(9)" filter="url(#gsh)">
+    <rect width="380" height="234" rx="14" fill="#F9F5EA"/>
+    <circle cx="320" cy="78" r="48" fill="#EAEAE6"/>
+    <text x="34" y="72" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#6B6458">GIFT CARD</text>
+    <text x="34" y="126" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#111">ENJOY</text>
+    <text x="34" y="166" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#8C7D5C">€25.00</text>
+    <rect x="34" y="190" width="180" height="8" rx="4" fill="#DDD5C4"/>
+    <rect x="34" y="204" width="110" height="5" rx="2.5" fill="#E7E0D1"/>
+  </g>
+  <g fill="#4A1C00" opacity=".55">
+    <path d="M610 200l10 30 30 10-30 10-10 30-10-30-30-10 30-10z"/>
+    <circle cx="110" cy="780" r="5"/>
+    <circle cx="665" cy="580" r="3"/>
+  </g>
+  <rect width="760" height="900" fill="#000" filter="url(#ggrain)"/>
+</svg>

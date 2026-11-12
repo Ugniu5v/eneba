@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-label="Google Play Gift Card 20 USD digital gift card">
+  <defs>
+    <linearGradient id="backgoogleplay" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A2F1E"/>
+      <stop offset="1" stop-color="#155C36"/>
+    </linearGradient>
+    <linearGradient id="cardgoogleplay" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFD86B" stop-opacity=".24"/>
+      <stop offset=".5" stop-color="#FFD86B" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#FFD86B" stop-opacity=".19"/>
+    </linearGradient>
+    <radialGradient id="ggoogleplay" cx="50%" cy="28%" r="70%">
+      <stop offset="0" stop-color="#FFD86B" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#FFD86B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="linesgoogleplay" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#FFFFFF" stroke-opacity=".045" stroke-width="2"/>
+    </pattern>
+    <filter id="shadowgoogleplay" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="24" stdDeviation="26" flood-color="#000" flood-opacity=".32"/>
+    </filter>
+    <filter id="graingoogleplay">
+      <feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".04"/></feComponentTransfer>
+    </filter>
+    <clipPath id="clipgoogleplay"><rect width="600" height="800" rx="0"/></clipPath>
+  </defs>
+  <g clip-path="url(#clipgoogleplay)">
+    <rect width="600" height="800" fill="url(#backgoogleplay)"/>
+    <rect width="600" height="800" fill="url(#ggoogleplay)"/>
+    <circle cx="518" cy="100" r="210" fill="none" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="1"/>
+    <circle cx="518" cy="100" r="160" fill="none" stroke="#FFFFFF" stroke-opacity=".06" stroke-width="1"/>
+    <rect width="600" height="800" fill="url(#linesgoogleplay)"/>
+    <g filter="url(#shadowgoogleplay)">
+      <rect x="42" y="205" width="516" height="324" rx="14" fill="url(#cardgoogleplay)"/>
+      <rect x="42" y="205" width="516" height="324" rx="14" fill="none" stroke="#FFD86B" stroke-opacity=".34"/>
+      <circle cx="512" cy="248" r="33" fill="#FFD86B" opacity=".17"/>
+      <path d="M500 238l24 24m0-24l-24 24" stroke="#FFD86B" stroke-width="2" stroke-linecap="round"/>
+      <text x="80" y="260" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="3.2">DIGITAL CODE</text>
+      <g font-family="Arial, Helvetica, sans-serif" fill="#FFFFFF">
+        <text x="80" y="368" font-size="43" font-weight="900" letter-spacing="-1.5">GOOGLE PLAY</text>
+        <rect x="80" y="394" width="48" height="3" fill="#FFD86B"/>
+        <text x="80" y="444" font-size="30" font-weight="700" letter-spacing=".5">20 USD</text>
+        <text x="80" y="496" font-size="10" font-weight="700" letter-spacing="2.8" opacity=".55">REDEEM • INSTANT • GLOBAL</text>
+      </g>
+      <g transform="translate(428 462)" opacity=".65">
+        <rect width="82" height="26" rx="13" fill="none" stroke="#FFFFFF" stroke-opacity=".4"/>
+        <text x="41" y="17" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">EN · EUR</text>
+      </g>
+    </g>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <text x="42" y="84" fill="#FFFFFF" font-size="10" font-weight="700" letter-spacing="2.6">GIFT CARD</text>
+      <text x="558" y="84" text-anchor="end" fill="#FFFFFF" font-size="10" font-weight="700" letter-spacing="2.6" opacity=".6">UNITED STATES</text>
+      <text x="42" y="648" fill="#FFFFFF" font-size="20" font-weight="800">Google Play Gift Card 20</text>
+      <text x="42" y="676" fill="#FFFFFF" opacity=".66" font-size="14">USD</text>
+      <g transform="translate(42 742)" opacity=".65">
+        <circle cx="5" cy="5" r="4" fill="#FFD86B"/>
+        <text x="18" y="9" fill="#FFFFFF" font-size="9" font-weight="700" letter-spacing="2">VERIFIED DIGITAL CODE</text>
+        <text x="516" y="9" text-anchor="end" fill="#FFFFFF" font-size="9" font-weight="700" letter-spacing="1.8">EN · EUR</text>
+      </g>
+    </g>
+    <rect width="600" height="800" fill="#000" filter="url(#graingoogleplay)" opacity=".7"/>
+  </g>
+</svg>

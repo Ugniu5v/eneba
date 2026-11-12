@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-label="Pixel Panic cover art">
+  
+  <defs>
+    <linearGradient id="bgpixelpanic" x1="0" y1="0" x2="0.75" y2="1">
+      <stop offset="0" stop-color="#2A0A3F"/>
+      <stop offset="1" stop-color="#7B1D5C"/>
+    </linearGradient>
+    <radialGradient id="glowpixelpanic" cx="50%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#FFB347" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#FFB347" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shadepixelpanic" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".38" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".8"/>
+    </linearGradient>
+    <linearGradient id="inkFadepixelpanic" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity=".62"/>
+    </linearGradient>
+    <pattern id="gridpixelpanic" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#FFB347" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+    <pattern id="dotspixelpanic" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#FFB347" opacity=".18"/>
+    </pattern>
+    <filter id="grainpixelpanic">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".055"/></feComponentTransfer>
+    </filter>
+    <filter id="blurpixelpanic" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="blurSmallpixelpanic" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <clipPath id="clippixelpanic"><rect width="600" height="800" rx="0"/></clipPath>
+  </defs>
+  <g clip-path="url(#clippixelpanic)">
+    <rect width="600" height="800" fill="url(#bgpixelpanic)"/>
+    
+      <circle cx="174.6" cy="198.2" r="0.53" fill="#fff" opacity="0.50"/><circle cx="101.3" cy="370.2" r="0.62" fill="#fff" opacity="0.60"/><circle cx="259.9" cy="295.4" r="1.27" fill="#fff" opacity="0.20"/><circle cx="300.5" cy="190.6" r="1.5" fill="#fff" opacity="0.30"/><circle cx="473.0" cy="272.3" r="2" fill="#fff" opacity="0.40"/><circle cx="427.5" cy="237.2" r="1.7899999999999998" fill="#fff" opacity="0.50"/><circle cx="413.9" cy="302.0" r="1.5699999999999998" fill="#fff" opacity="0.60"/><circle cx="82.2" cy="163.5" r="0.36" fill="#fff" opacity="0.20"/><circle cx="282.5" cy="38.1" r="0.5700000000000001" fill="#fff" opacity="0.30"/><circle cx="64.7" cy="142.7" r="1.19" fill="#fff" opacity="0.40"/><circle cx="278.9" cy="173.8" r="1.24" fill="#fff" opacity="0.50"/><circle cx="575.0" cy="348.2" r="1.44" fill="#fff" opacity="0.60"/><circle cx="3.1" cy="362.5" r="0.77" fill="#fff" opacity="0.20"/><circle cx="13.1" cy="433.4" r="1.6600000000000001" fill="#fff" opacity="0.30"/><circle cx="255.0" cy="257.5" r="1.42" fill="#fff" opacity="0.40"/><circle cx="378.9" cy="51.5" r="0.74" fill="#fff" opacity="0.50"/><circle cx="34.8" cy="32.1" r="0.35" fill="#fff" opacity="0.60"/><circle cx="72.5" cy="415.9" r="0.9400000000000001" fill="#fff" opacity="0.20"/><circle cx="142.3" cy="379.6" r="1.53" fill="#fff" opacity="0.30"/><circle cx="494.0" cy="140.0" r="1.1199999999999999" fill="#fff" opacity="0.40"/><circle cx="177.6" cy="433.5" r="0.43" fill="#fff" opacity="0.50"/><circle cx="43.1" cy="437.0" r="1.85" fill="#fff" opacity="0.60"/><circle cx="340.6" cy="367.0" r="1.01" fill="#fff" opacity="0.20"/><circle cx="120.1" cy="440.3" r="0.3" fill="#fff" opacity="0.30"/><circle cx="231.5" cy="353.4" r="0.44000000000000006" fill="#fff" opacity="0.40"/><circle cx="324.8" cy="323.2" r="0.44000000000000006" fill="#fff" opacity="0.50"/><circle cx="50.1" cy="46.2" r="0.99" fill="#fff" opacity="0.60"/><circle cx="257.3" cy="259.1" r="1.1199999999999999" fill="#fff" opacity="0.20"/><circle cx="596.5" cy="138.6" r="1.53" fill="#fff" opacity="0.30"/><circle cx="117.6" cy="421.3" r="1.23" fill="#fff" opacity="0.40"/><circle cx="270.7" cy="283.9" r="0.9199999999999999" fill="#fff" opacity="0.50"/><circle cx="105.7" cy="463.1" r="1.31" fill="#fff" opacity="0.60"/><circle cx="472.7" cy="135.5" r="1.42" fill="#fff" opacity="0.20"/><circle cx="421.6" cy="37.9" r="1.95" fill="#fff" opacity="0.30"/><circle cx="202.4" cy="386.8" r="1.9100000000000001" fill="#fff" opacity="0.40"/><circle cx="65.2" cy="359.0" r="0.31" fill="#fff" opacity="0.50"/><circle cx="259.9" cy="171.0" r="1.25" fill="#fff" opacity="0.60"/><circle cx="436.6" cy="39.7" r="0.35" fill="#fff" opacity="0.20"/><circle cx="245.2" cy="181.6" r="1.7" fill="#fff" opacity="0.30"/><circle cx="535.8" cy="293.4" r="0.9400000000000001" fill="#fff" opacity="0.40"/>
+      <g transform="translate(300 310)">
+        <circle r="210" fill="#FFB347" opacity=".06"/>
+        <path d="M-238 70C-160-80-40-120 82-60c70 34 112 28 170-10l-56 140C80 180 10 190-80 140z" fill="#FFB347" opacity=".2" filter="url(#blurpixelpanic)"/>
+        <g fill="none" stroke="#FFB347" stroke-width="3" opacity=".7">
+          <path d="M0-190L60-70 190-70 80 10 120 140 0 70-120 140-80 10-190-70-60-70z"/>
+        </g>
+        <circle r="64" fill="#FFB347" opacity=".16"/>
+        <path d="M-28 18L0-28l28 46-28 18z" fill="#FFB347"/>
+      </g>
+      <g fill="#7B1D5C" opacity=".32">
+        <circle cx="76" cy="520" r="38"/><circle cx="514" cy="224" r="22"/>
+      </g>
+      <path d="M0 700h600" stroke="#FFB347" stroke-opacity=".2"/>
+    
+  <rect width="600" height="800" fill="url(#glowpixelpanic)"/>
+  <rect width="600" height="800" fill="url(#gridpixelpanic)" opacity=".55"/>
+  <rect width="600" height="800" fill="#000" filter="url(#grainpixelpanic)" opacity=".65"/>
+  <rect y="420" width="600" height="380" fill="url(#shadepixelpanic)"/>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <rect x="36" y="36" width="79.6" height="28" fill="#000" opacity=".35"/>
+      <text x="50" y="55" fill="#FFFFFF" font-size="11" font-weight="700" letter-spacing="2">GAME</text>
+      <text x="564" y="55" text-anchor="end" fill="#FFB347" font-size="11" font-weight="700" letter-spacing="2">EN • EUR</text>
+      <g transform="translate(36 680)">
+        <rect x="0" y="-42" width="44" height="4" fill="#FFB347"/>
+        <text x="0" y="0" fill="#FFFFFF" font-size="58" font-weight="900" letter-spacing="-2.5">PIXEL PANIC</text>
+      </g>
+      <g transform="translate(36 746)">
+        <text x="0" y="0" fill="#FFB347" font-size="16" font-weight="700" letter-spacing="3.5">ENDLESS ARCADE</text>
+      </g>
+      <g transform="translate(36 748)" opacity=".78">
+        <path d="M0 0h70" stroke="#FFFFFF" stroke-width="1"/>
+        <text x="0" y="24" fill="#FFFFFF" font-size="10" font-weight="700" letter-spacing="2.6">DIGITAL DOWNLOAD</text>
+        <text x="564" y="0" text-anchor="end" fill="#FFFFFF" font-size="10" font-weight="700" letter-spacing="1.7">INSTANT DELIVERY</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-label="Farming Frontier 26 cover art">
+  
+  <defs>
+    <linearGradient id="bgfarmingfro" x1="0" y1="0" x2="0.75" y2="1">
+      <stop offset="0" stop-color="#123A2A"/>
+      <stop offset="1" stop-color="#7DAA40"/>
+    </linearGradient>
+    <radialGradient id="glowfarmingfro" cx="50%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#FAD318" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#FAD318" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shadefarmingfro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".38" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".8"/>
+    </linearGradient>
+    <linearGradient id="inkFadefarmingfro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity=".62"/>
+    </linearGradient>
+    <pattern id="gridfarmingfro" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#FAD318" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+    <pattern id="dotsfarmingfro" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#FAD318" opacity=".18"/>
+    </pattern>
+    <filter id="grainfarmingfro">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".055"/></feComponentTransfer>
+    </filter>
+    <filter id="blurfarmingfro" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="blurSmallfarmingfro" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <clipPath id="clipfarmingfro"><rect width="600" height="800" rx="0"/></clipPath>
+  </defs>
+  <g clip-path="url(#clipfarmingfro)">
+    <rect width="600" height="800" fill="url(#bgfarmingfro)"/>
+    
+      <circle cx="430" cy="210" r="92" fill="#FAD318" opacity=".82"/>
+      <circle cx="430" cy="210" r="140" fill="#FAD318" opacity=".09" filter="url(#blurfarmingfro)"/>
+      <g fill="none" stroke="#FFFFFF" stroke-opacity=".2">
+        <path d="M0 440c130-100 250-90 360-38s170 45 240 5"/>
+        <path d="M0 510c150-76 280-62 380-14s170 35 220 10"/>
+        <path d="M0 600c170-90 330-48 430-16s130 14 170-8"/>
+      </g>
+      <path d="M0 500c90-58 180-58 266-5 90 55 200 59 334-8v313H0Z" fill="#1B4B2D" opacity=".8"/>
+      <path d="M0 620c130-50 260-55 350-25s180 30 250-5v210H0Z" fill="#0B2B20"/>
+      <g transform="translate(90 476)">
+        <path d="M0 80l50-38 50 38v82H0z" fill="#3D2313"/>
+        <path d="M-12 82L50 34l62 48" fill="none" stroke="#FAD318" stroke-width="7"/>
+        <rect x="39" y="115" width="24" height="47" fill="#130D09"/>
+        <rect x="10" y="99" width="16" height="16" fill="#FAD318" opacity=".7"/>
+        <rect x="74" y="99" width="16" height="16" fill="#FAD318" opacity=".7"/>
+      </g>
+      <g stroke="#FFFFFF" stroke-opacity=".38" stroke-width="1.4" fill="none">
+        <path d="M0 696c120-60 250-70 370-30s180 28 230-4"/>
+        <path d="M36 730c120-50 240-58 350-20"/>
+      </g>
+      <g fill="#FAD318" opacity=".8">
+        <circle cx="96" cy="360" r="2"/><circle cx="120" cy="340" r="1.4"/><circle cx="78" cy="330" r="1.4"/>
+      </g>
+    
+  <rect width="600" height="800" fill="url(#glowfarmingfro)"/>
+  <rect width="600" height="800" fill="url(#gridfarmingfro)" opacity=".55"/>
+  <rect width="600" height="800" fill="#000" filter="url(#grainfarmingfro)" opacity=".65"/>
+  <rect y="420" width="600" height="380" fill="url(#shadefarmingfro)"/>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <rect x="36" y="36" width="79.6" height="28" fill="#000" opacity=".35"/>
+      <text x="50" y="55" fill="#FFFFFF" font-size="11" font-weight="700" letter-spacing="2">GAME</text>
+      <text x="564" y="55" text-anchor="end" fill="#FAD318" font-size="11" font-weight="700" letter-spacing="2">EN • EUR</text>
+      <g transform="translate(36 617)">
+        <rect x="0" y="-42" width="44" height="4" fill="#FAD318"/>
+        <text x="0" y="0" fill="#FFFFFF" font-size="66" font-weight="900" letter-spacing="-2.5">FARMING</text><text x="0" y="70" fill="#FFFFFF" font-size="66" font-weight="900" letter-spacing="-2.5">FRONTIER</text>
+      </g>
+      <g transform="translate(36 761)">
+        <text x="0" y="0" fill="#FAD318" font-size="16" font-weight="700" letter-spacing="3.5">'26</text>
+      </g>
+      <g transform="translate(36 748)" opacity=".78">
+        <path d="M0 0h70" stroke="#FFFFFF" stroke-width="1"/>
+        <text x="0" y="24" fill="#FFFFFF" font-size="10" font-weight="700" letter-spacing="2.6">DIGITAL DOWNLOAD</text>
+        <text x="564" y="0" text-anchor="end" fill="#FFFFFF" font-size="10" font-weight="700" letter-spacing="1.7">INSTANT DELIVERY</text>
+      </g>
+    </g>
+  </g>
+</svg>

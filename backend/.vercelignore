@@ -1,0 +1,12 @@
+# Vercel has no persistent disk: the database lives in Supabase, reached through
+# DATABASE_URL. Keep local state and secrets out of the uploaded function.
+data/
+.gocache/
+bin/
+*.db
+*.db-shm
+*.db-wal
+.env
+.env.local
+Dockerfile
+.dockerignore

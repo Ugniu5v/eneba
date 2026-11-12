@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-label="Pixel Ranch cover art">
+  
+  <defs>
+    <linearGradient id="bgpixelranch" x1="0" y1="0" x2="0.75" y2="1">
+      <stop offset="0" stop-color="#26150C"/>
+      <stop offset="1" stop-color="#6C3B17"/>
+    </linearGradient>
+    <radialGradient id="glowpixelranch" cx="50%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#FFB84C" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#FFB84C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shadepixelranch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".38" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".8"/>
+    </linearGradient>
+    <linearGradient id="inkFadepixelranch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity=".62"/>
+    </linearGradient>
+    <pattern id="gridpixelranch" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#FFB84C" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+    <pattern id="dotspixelranch" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#FFB84C" opacity=".18"/>
+    </pattern>
+    <filter id="grainpixelranch">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".055"/></feComponentTransfer>
+    </filter>
+    <filter id="blurpixelranch" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="blurSmallpixelranch" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <clipPath id="clippixelranch"><rect width="600" height="800" rx="0"/></clipPath>
+  </defs>
+  <g clip-path="url(#clippixelranch)">
+    <rect width="600" height="800" fill="url(#bgpixelranch)"/>
+    
+      <circle cx="300" cy="318" r="164" fill="#FFB84C" opacity=".82"/>
+      <g fill="#6C3B17" opacity=".25">
+        <rect y="320" width="600" height="28"/><rect y="388" width="600" height="12"/>
+        <rect y="440" width="600" height="20"/><rect y="492" width="600" height="8"/>
+      </g>
+      <path d="M0 590l170-80 120 45 120-50 190 50v245H0Z" fill="#2C180D"/>
+      <path d="M0 670l220-74 170 45 210-30v189H0Z" fill="#160C07"/>
+      <g transform="translate(96 464)">
+        <path d="M0 100L76 38l76 62v106H0z" fill="#6A3116"/>
+        <path d="M-14 104L76 30l90 74" fill="none" stroke="#AC5C28" stroke-width="10"/>
+        <rect x="64" y="143" width="34" height="63" fill="#1A0C06"/>
+        <rect x="22" y="124" width="22" height="22" fill="#FFB84C"/>
+        <rect x="112" y="124" width="22" height="22" fill="#FFB84C"/>
+        <path d="M126 10v-40" stroke="#FFB84C" stroke-width="4"/>
+      </g>
+      <g fill="#FFFFFF" opacity=".7">
+        <rect x="436" y="640" width="54" height="5"/><rect x="486" y="608" width="38" height="4"/>
+      </g>
+      <g stroke="#FFFFFF" stroke-opacity=".28" fill="none">
+        <path d="M0 706c140-34 280-28 390 4s160 22 210 8"/>
+      </g>
+    
+  <rect width="600" height="800" fill="url(#glowpixelranch)"/>
+  <rect width="600" height="800" fill="url(#gridpixelranch)" opacity=".55"/>
+  <rect width="600" height="800" fill="#000" filter="url(#grainpixelranch)" opacity=".65"/>
+  <rect y="420" width="600" height="380" fill="url(#shadepixelranch)"/>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <rect x="36" y="36" width="79.6" height="28" fill="#000" opacity=".35"/>
+      <text x="50" y="55" fill="#FFFFFF" font-size="11" font-weight="700" letter-spacing="2">GAME</text>
+      <text x="564" y="55" text-anchor="end" fill="#FFB84C" font-size="11" font-weight="700" letter-spacing="2">EN • EUR</text>
+      <g transform="translate(36 680)">
+        <rect x="0" y="-42" width="44" height="4" fill="#FFB84C"/>
+        <text x="0" y="0" fill="#FFFFFF" font-size="58" font-weight="900" letter-spacing="-2.5">PIXEL RANCH</text>
+      </g>
+      <g transform="translate(36 746)">
+        <text x="0" y="0" fill="#FFB84C" font-size="16" font-weight="700" letter-spacing="3.5">COZY SIM</text>
+      </g>
+      <g transform="translate(36 748)" opacity=".78">
+        <path d="M0 0h70" stroke="#FFFFFF" stroke-width="1"/>
+        <text x="0" y="24" fill="#FFFFFF" font-size="10" font-weight="700" letter-spacing="2.6">DIGITAL DOWNLOAD</text>
+        <text x="564" y="0" text-anchor="end" fill="#FFFFFF" font-size="10" font-weight="700" letter-spacing="1.7">INSTANT DELIVERY</text>
+      </g>
+    </g>
+  </g>
+</svg>

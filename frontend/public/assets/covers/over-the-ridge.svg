@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-label="Over the Ridge cover art">
+  
+  <defs>
+    <linearGradient id="bgovertherid" x1="0" y1="0" x2="0.75" y2="1">
+      <stop offset="0" stop-color="#132D46"/>
+      <stop offset="1" stop-color="#5D8AA8"/>
+    </linearGradient>
+    <radialGradient id="glowovertherid" cx="50%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#FFCE8A" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#FFCE8A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shadeovertherid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".38" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".8"/>
+    </linearGradient>
+    <linearGradient id="inkFadeovertherid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity=".62"/>
+    </linearGradient>
+    <pattern id="gridovertherid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#FFCE8A" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+    <pattern id="dotsovertherid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#FFCE8A" opacity=".18"/>
+    </pattern>
+    <filter id="grainovertherid">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".055"/></feComponentTransfer>
+    </filter>
+    <filter id="blurovertherid" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="blurSmallovertherid" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <clipPath id="clipovertherid"><rect width="600" height="800" rx="0"/></clipPath>
+  </defs>
+  <g clip-path="url(#clipovertherid)">
+    <rect width="600" height="800" fill="url(#bgovertherid)"/>
+    
+      <circle cx="246.4" cy="355.6" r="1.19" fill="#fff" opacity="0.30"/><circle cx="488.4" cy="220.3" r="0.95" fill="#fff" opacity="0.40"/><circle cx="12.3" cy="61.8" r="1.97" fill="#fff" opacity="0.50"/><circle cx="268.1" cy="46.9" r="1.58" fill="#fff" opacity="0.60"/><circle cx="305.9" cy="342.2" r="0.47000000000000003" fill="#fff" opacity="0.20"/><circle cx="375.6" cy="314.3" r="1.06" fill="#fff" opacity="0.30"/><circle cx="127.3" cy="129.9" r="0.65" fill="#fff" opacity="0.40"/><circle cx="410.9" cy="355.7" r="1.65" fill="#fff" opacity="0.50"/><circle cx="276.5" cy="358.3" r="1.3800000000000001" fill="#fff" opacity="0.60"/><circle cx="574.0" cy="304.5" r="0.54" fill="#fff" opacity="0.20"/><circle cx="353.4" cy="360.9" r="1.53" fill="#fff" opacity="0.30"/><circle cx="464.8" cy="294.1" r="1.67" fill="#fff" opacity="0.40"/><circle cx="558.2" cy="270.8" r="1.67" fill="#fff" opacity="0.50"/><circle cx="283.4" cy="57.8" r="0.52" fill="#fff" opacity="0.60"/><circle cx="490.7" cy="221.5" r="0.65" fill="#fff" opacity="0.20"/><circle cx="229.9" cy="128.8" r="1.06" fill="#fff" opacity="0.30"/><circle cx="351.0" cy="346.3" r="0.75" fill="#fff" opacity="0.40"/><circle cx="504.0" cy="240.6" r="0.44000000000000006" fill="#fff" opacity="0.50"/><circle cx="339.0" cy="378.5" r="0.8400000000000001" fill="#fff" opacity="0.60"/><circle cx="106.0" cy="126.5" r="0.95" fill="#fff" opacity="0.20"/><circle cx="54.9" cy="51.4" r="1.48" fill="#fff" opacity="0.30"/><circle cx="435.7" cy="319.8" r="1.44" fill="#fff" opacity="0.40"/><circle cx="298.5" cy="298.4" r="1.53" fill="#fff" opacity="0.50"/><circle cx="493.2" cy="153.8" r="0.78" fill="#fff" opacity="0.60"/><circle cx="69.9" cy="52.7" r="1.5699999999999998" fill="#fff" opacity="0.20"/><circle cx="478.5" cy="161.9" r="1.23" fill="#fff" opacity="0.30"/><circle cx="169.1" cy="247.9" r="0.45999999999999996" fill="#fff" opacity="0.40"/><circle cx="591.6" cy="77.4" r="1.67" fill="#fff" opacity="0.50"/><circle cx="196.1" cy="217.1" r="0.47000000000000003" fill="#fff" opacity="0.60"/><circle cx="432.5" cy="33.6" r="0.97" fill="#fff" opacity="0.20"/>
+      <circle cx="440" cy="190" r="78" fill="#FFCE8A" opacity=".75"/>
+      <circle cx="440" cy="190" r="120" fill="#FFCE8A" opacity=".1" filter="url(#blurovertherid)"/>
+      <path d="M0 470L115 320l70 100 100-152 132 194 70-92 113 86v344H0Z" fill="#243D50" opacity=".68"/>
+      <path d="M0 544L130 412l90 86 76-60 118 118 84-56 102 62v238H0Z" fill="#132A39" opacity=".9"/>
+      <path d="M0 650c130-92 280-92 380-18s160 68 220 28v140H0Z" fill="#0B1B27"/>
+      <g transform="translate(196 568)">
+        <path d="M0 60L44 0l44 60z" fill="#FFCE8A" opacity=".86"/>
+        <path d="M18 60L44 26l26 34z" fill="#6B3F21"/>
+        <path d="M34 60V42h20v18" fill="#2C1D13"/>
+      </g>
+      <g stroke="#FFFFFF" stroke-opacity=".24" fill="none">
+        <path d="M110 680c100-38 200-32 290 8"/>
+        <path d="M360 710c80-27 160-23 220 4"/>
+      </g>
+      <g fill="#FFFFFF" opacity=".5">
+        <path d="M456 400l10-6 8 8 12-4-5 10 7 7-11 2-5 10-4-11-10 1 7-8z"/>
+      </g>
+    
+  <rect width="600" height="800" fill="url(#glowovertherid)"/>
+  <rect width="600" height="800" fill="url(#gridovertherid)" opacity=".55"/>
+  <rect width="600" height="800" fill="#000" filter="url(#grainovertherid)" opacity=".65"/>
+  <rect y="420" width="600" height="380" fill="url(#shadeovertherid)"/>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <rect x="36" y="36" width="79.6" height="28" fill="#000" opacity=".35"/>
+      <text x="50" y="55" fill="#FFFFFF" font-size="11" font-weight="700" letter-spacing="2">GAME</text>
+      <text x="564" y="55" text-anchor="end" fill="#FFCE8A" font-size="11" font-weight="700" letter-spacing="2">EN • EUR</text>
+      <g transform="translate(36 617)">
+        <rect x="0" y="-42" width="44" height="4" fill="#FFCE8A"/>
+        <text x="0" y="0" fill="#FFFFFF" font-size="66" font-weight="900" letter-spacing="-2.5">OVER THE</text><text x="0" y="70" fill="#FFFFFF" font-size="66" font-weight="900" letter-spacing="-2.5">RIDGE</text>
+      </g>
+      <g transform="translate(36 761)">
+        <text x="0" y="0" fill="#FFCE8A" font-size="16" font-weight="700" letter-spacing="3.5">A COZY CLIMB</text>
+      </g>
+      <g transform="translate(36 748)" opacity=".78">
+        <path d="M0 0h70" stroke="#FFFFFF" stroke-width="1"/>
+        <text x="0" y="24" fill="#FFFFFF" font-size="10" font-weight="700" letter-spacing="2.6">DIGITAL DOWNLOAD</text>
+        <text x="564" y="0" text-anchor="end" fill="#FFFFFF" font-size="10" font-weight="700" letter-spacing="1.7">INSTANT DELIVERY</text>
+      </g>
+    </g>
+  </g>
+</svg>

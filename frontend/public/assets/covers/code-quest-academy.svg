@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-label="Code Quest Academy cover art">
+  
+  <defs>
+    <linearGradient id="bgcodequesta" x1="0" y1="0" x2="0.75" y2="1">
+      <stop offset="0" stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#17324A"/>
+    </linearGradient>
+    <radialGradient id="glowcodequesta" cx="50%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#FFD24A" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#FFD24A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shadecodequesta" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".38" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".8"/>
+    </linearGradient>
+    <linearGradient id="inkFadecodequesta" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity=".62"/>
+    </linearGradient>
+    <pattern id="gridcodequesta" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#FFD24A" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+    <pattern id="dotscodequesta" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#FFD24A" opacity=".18"/>
+    </pattern>
+    <filter id="graincodequesta">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".055"/></feComponentTransfer>
+    </filter>
+    <filter id="blurcodequesta" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="blurSmallcodequesta" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <clipPath id="clipcodequesta"><rect width="600" height="800" rx="0"/></clipPath>
+  </defs>
+  <g clip-path="url(#clipcodequesta)">
+    <rect width="600" height="800" fill="url(#bgcodequesta)"/>
+    
+      <g transform="translate(62 178)">
+        <rect width="476" height="320" rx="10" fill="#fff" opacity=".06" stroke="#FFD24A" stroke-opacity=".22"/>
+        <rect width="476" height="40" fill="#fff" opacity=".04"/>
+        <circle cx="22" cy="20" r="4" fill="#FFD24A" opacity=".7"/>
+        <circle cx="38" cy="20" r="4" fill="#fff" opacity=".25"/>
+        <circle cx="54" cy="20" r="4" fill="#fff" opacity=".2"/>
+        <g transform="translate(34 76)">
+          <rect width="186" height="190" rx="4" fill="#FFD24A" opacity=".12"/>
+          <circle cx="87" cy="72" r="42" fill="none" stroke="#FFD24A" stroke-width="2" opacity=".6"/>
+          <path d="M45 72h84M87 30v84" stroke="#FFD24A" opacity=".45"/>
+          <rect x="28" y="138" width="126" height="7" fill="#FFD24A" opacity=".55"/>
+          <rect x="28" y="154" width="88" height="4" fill="#fff" opacity=".25"/>
+        </g>
+        <g transform="translate(246 76)">
+          <rect width="196" height="58" fill="#fff" opacity=".04"/>
+          <rect x="16" y="16" width="26" height="26" rx="6" fill="#FFD24A" opacity=".6"/>
+          <rect x="58" y="20" width="104" height="6" fill="#fff" opacity=".35"/>
+          <rect x="58" y="34" width="66" height="4" fill="#fff" opacity=".18"/>
+          <rect y="76" width="196" height="58" fill="#fff" opacity=".07"/>
+          <rect x="16" y="92" width="26" height="26" rx="6" fill="#FFD24A" opacity=".28"/>
+          <rect x="58" y="96" width="118" height="6" fill="#fff" opacity=".35"/>
+          <rect x="58" y="110" width="54" height="4" fill="#fff" opacity=".18"/>
+          <rect y="152" width="196" height="38" fill="#fff" opacity=".04"/>
+          <rect x="16" y="164" width="96" height="5" fill="#fff" opacity=".2"/>
+        </g>
+      </g>
+      <circle cx="476" cy="542" r="110" fill="#FFD24A" opacity=".1" filter="url(#blurcodequesta)"/>
+      <path d="M410 532l28 28 60-72" fill="none" stroke="#FFD24A" stroke-width="5" opacity=".6"/>
+      <rect y="650" width="600" height="1" fill="#FFD24A" opacity=".2"/>
+    
+  <rect width="600" height="800" fill="url(#glowcodequesta)"/>
+  <rect width="600" height="800" fill="url(#gridcodequesta)" opacity=".55"/>
+  <rect width="600" height="800" fill="#000" filter="url(#graincodequesta)" opacity=".65"/>
+  <rect y="420" width="600" height="380" fill="url(#shadecodequesta)"/>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <rect x="36" y="36" width="115.2" height="28" fill="#000" opacity=".35"/>
+      <text x="50" y="55" fill="#FFFFFF" font-size="11" font-weight="700" letter-spacing="2">SOFTWARE</text>
+      <text x="564" y="55" text-anchor="end" fill="#FFD24A" font-size="11" font-weight="700" letter-spacing="2">EN • EUR</text>
+      <g transform="translate(36 680)">
+        <rect x="0" y="-42" width="44" height="4" fill="#FFD24A"/>
+        <text x="0" y="0" fill="#FFFFFF" font-size="66" font-weight="900" letter-spacing="-2.5">CODE QUEST</text>
+      </g>
+      <g transform="translate(36 754)">
+        <text x="0" y="0" fill="#FFD24A" font-size="16" font-weight="700" letter-spacing="3.5">ACADEMY</text>
+      </g>
+      <g transform="translate(36 748)" opacity=".78">
+        <path d="M0 0h70" stroke="#FFFFFF" stroke-width="1"/>
+        <text x="0" y="24" fill="#FFFFFF" font-size="10" font-weight="700" letter-spacing="2.6">DIGITAL DOWNLOAD</text>
+        <text x="564" y="0" text-anchor="end" fill="#FFFFFF" font-size="10" font-weight="700" letter-spacing="1.7">INSTANT DELIVERY</text>
+      </g>
+    </g>
+  </g>
+</svg>
